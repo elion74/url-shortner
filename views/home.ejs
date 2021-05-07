@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Loni.es</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+
+  <body>
+    <h1 class="headline">Loni.es url shortner</h1>
+
+    <form class="form">
+      <input class="long-url" type="text" placeholder="long url" />
+      <input onclick ='postUrl(event)' class="button" type="submit" value="process"/>
+    </form>
+
+    <div id = 'container'></div>
+
+    
+    <img draggable="false" class = 'img' src="/img/funnel-art.png"/>
+  
+    <p class="short-url">Hier ausgabe von short url</p>
+
+    <script src="/js/home.js"></script>
+  </body>
+</html>
